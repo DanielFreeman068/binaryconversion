@@ -1,8 +1,8 @@
-import math
-binary=int(input("Input a number you want to convert to binary"))
-print("The binary of " + str(binary) + " is " + bin(binary))
-hexadecimal=hex(binary)
-print("The hexidecimal of " + str(binary) + " is " + hex(binary))
+import math #Importing math library
+binary=int(input("Input a number you want to convert to binary")) #Users number input
+print("The binary of " + str(binary) + " is " + bin(binary)) #Concatenating the binary into text
+hexadecimal=hex(binary) #coverting variable to hexadecimal
+print("The hexidecimal of " + str(binary) + " is " + hex(binary)) #Concatenating the hexadecimal into text
 
 
 
