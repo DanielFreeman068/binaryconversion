@@ -1,10 +1,10 @@
-  
+import math
+binary=int(input("Input a number you want to convert to binary"))
+print("The binary of " + str(binary) + " is " + bin(binary))
+hexadecimal=hex(binary)
+print("The hexidecimal of " + str(binary) + " is " + hex(binary))
 
 
 
 
 
-binary = int(input("Input a number to find its Binary"))
-binary1 = bin(binary)
-final = ("The binary of {0} is {1}.")
-print(final.format(binary,binary1))
