@@ -1,4 +1,9 @@
-import math
+  
+
+
+
+
+
 binary = int(input("Input a number to find its Binary"))
 binary1 = bin(binary)
 final = ("The binary of {0} is {1}.")
