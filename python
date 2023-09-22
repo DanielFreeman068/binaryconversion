@@ -1,1 +1,4 @@
 import math
+binary = int(input("Input a number to find its Binary"))
+bin(binary)
+print(binary)
